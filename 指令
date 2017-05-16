@@ -1,0 +1,23 @@
+1. 先更新系統
+sudo apt-get update
+
+2. 安裝
+sudo apt-get install mono-complete
+
+3. 編譯：
+
+gmcs 20160914.cs
+
+4. 執行：在 linux 上執行：
+
+mono 20160914.exe
+
+using System;
+
+namespace testno39
+{
+  public class Program
+  {
+   
+  }
+}
